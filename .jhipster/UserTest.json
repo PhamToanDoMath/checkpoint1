@@ -1,0 +1,24 @@
+{
+  "applications": "*",
+  "changelogDate": "20220618063454",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "user_test",
+  "fields": [
+    {
+      "fieldName": "firstName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "age",
+      "fieldType": "Integer"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "UserTest",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}

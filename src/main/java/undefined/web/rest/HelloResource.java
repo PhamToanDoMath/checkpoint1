@@ -17,21 +17,30 @@ public class HelloResource {
 
     private final Logger log = LoggerFactory.getLogger(HelloResource.class);
 
-    /**
-     * GET hello
-     */
-    @GetMapping("/hello")
-    public String hello() {
+//    /**
+//     * GET hello
+//     */
+//    @GetMapping("/hello")
+//    public String hello() {
+//
+//        return "Hello World ";
+//    }
 
-        return "Hello World ";
-    }
+//    /**
+//     * GET helloWithName
+//     */
+//    @GetMapping("/helloWithName")
+//    public String helloWithNameFake(@PathVariable Long id) {
+////        UserTest user = new UserTest(1L,"Toan",15);
+//        return "Hello World " + "fake";
+//    }
 
     /**
      * GET helloWithName
      */
-    @GetMapping("/hello/{id}")
-    public String helloWithName(@PathVariable Long id) {
-        UserTest user = new UserTest(1L,"Toan",15);
-        return "Hello World " + user.getFirstName();
-    }
+//    @GetMapping("/hello/{id}")
+//    public String helloWithName(@PathVariable Long id) {
+//        UserTest user = new UserTest(1L,"Toan",15);
+//        return "Hello World " + user.getFirstName();
+//    }
 }

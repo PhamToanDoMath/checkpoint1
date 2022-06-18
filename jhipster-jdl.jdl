@@ -1,0 +1,4 @@
+entity UserTest {
+	firstName String,
+    age Integer
+}
